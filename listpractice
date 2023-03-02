@@ -1,0 +1,132 @@
+# a=["ram",10,"shyam",12.5]
+# # print(a[0:3])
+# print(a[:3])
+
+
+# modify list
+
+# a=["ram",10,"shyam",12.5]
+# print(a[1])
+# a[1]= "ramesh"
+# print(a[1])
+# print(a)
+
+
+# DELETe METHOD
+
+# a=["ram",10,"shyam",12.5]
+# print(a)
+# del a[1]
+# print(a)
+
+# LIST TRAVERSAL IN PYTHON
+
+# a=["ram",10,"shyam",12.5]
+# for i in a:
+#     print(i)
+
+# a=["ram",10,"shyam",12.5]
+# for i in range (len(a)):
+#     print(a[i])
+
+
+# MAX()
+# a=[10,20,30]
+# b=max(a)
+# print("max value in list= ",b)
+
+
+# a=[10,20,30]
+# print("max value is= ",max(a))
+
+# MIN()
+
+# a=[10,20,30]
+# b=min(a)
+# print("min value is= ",b)
+
+# a=[10,20,30]
+# print("min value is= ", min(a))
+
+# a=["ram","akshay","shyam"]
+# # print(min(a))
+
+# print(max(a))
+
+
+# APPEND
+
+# a=["ram","shyam","sita"]
+# a.append("akshay")
+# print(a)
+
+
+# a=[]
+# for i in range(10):
+ 
+ 
+#  x=int(input("enter term in list"))
+#  a.append(x)
+#  print(a)
+
+# for i in range (10):
+#   print(a[i])
+
+
+# COUNT
+
+# a=["ram","shyam","sita"]
+# x=a.count("shyam")
+# print(x)
+
+
+# a=[]
+# for i in range(4):
+#     x=input("enter index to add")
+#     a.append(x)
+# c=input("enter value whose frequency you want to find")
+# f=a.count(c)
+# print("freq is = ",f)
+
+# LIST INDEX
+# a=["ram","shyam","sita"]
+# x=a.index("sita")
+# print(x)
+
+# a=[5,"ram",10]
+# a.insert(2,"ak")
+# print(a)
+
+
+# REMOVE
+
+# a=["ram","shyam","sita"]
+# a.remove("shyam")
+# print(a)
+
+# REVERSE
+# a=["ram","shyam","sita",10,4]
+# a.reverse()
+# print(a)
+
+# a=[]
+# for i in range (4):
+#     x=input("enter item")
+#     a.append(x)
+# a.reverse()
+# print(a)
+
+
+a=[3,5,7,4]
+a.pop(5)
+print(a)
+
+
+
+
+
+
+
+
+
+
